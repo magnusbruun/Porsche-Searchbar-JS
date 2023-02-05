@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: -webkit-linear-gradient(90deg, hsla(0, 1%, 20%, 1) 0%, hsla(9, 22%, 75%, 1) 0%, hsla(251, 11%, 63%, 1) 0%, hsla(260, 10%, 88%, 1) 93%);
+}
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.navbar img {
+  width: 130px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  width: 150px;
+  padding: 10px;
+  margin-right: 30px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.results {
+  list-style: none;
+  padding: 0;
+  width: 50%;
+}
+
+li {
+  background-color: hsla(251, 11%, 63%, 1);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  background: none;
+  font-size: 18px;
+  padding-left: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
+.porsche {
+  width: 800px;
+}
+
+.min-porsche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.læs-mere p {
+  padding-top: 20px;
+}
+
+.læs-mere a {
+  color: rgb(141, 89, 200);
+  border-bottom: 1px solid;
+}
+
+.hvorfor-ik {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.hvorfor-ik p {
+  padding-top: 20px;
+}
+
+.baggrund {
+  background: hsla(251, 11%, 63%, 1);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
